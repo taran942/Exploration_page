@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adventure.css">
+    <title>Adventure</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="navlinks">
+            <li><a href="#" class="ctn">HOME</a></li>
+            <li><a href="#">TOURS</a></li>
+            <li><a href="#">EXPLORE</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#" class="ctn">CONTACT</a></li>
+        </ul>
+        <img src="Pictures/menubutton.webp" alt="" class="menu-button">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>WELCOME TO MUSSORIE</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- EVENTS-->
+    <section class="events">
+        <div class="title">
+            <h1>PLACES TO VISIT</h1>
+            <div class="line"></div>
+            <div class="row">
+                <div class="column">
+                    <img src="Pictures/cafe-interiors.jpg" alt="">
+                    <h4>CAFE</h4>
+                    <p>Explore the best cafe's here</p>
+                    <a href="#" class="ctn">CLICK FOR MORE</a>
+                </div>
+                <div class="column">
+                    <img src="Pictures/kfall.jpg" alt="" width="550px" height="413">
+                    <h4>KAMPTY FALL</h4>
+                    <p>Kampty fall</p>
+                    <a href="#" class="ctn">CLICK FOR MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <a href="#" class="ctn">click for more</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="column c-c">
+                <h1>UPCOMING TOURS AND DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, quidem minus! Ab placeat suscipit
+                    error, dicta doloribus in! Dignissimos praesentium facilis vitae cupiditate magni exercitationem
+                    quod in assumenda nam minima.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="column i-c">
+                <div class="image-gallery">
+                    <img src="Pictures/image.jfif" alt="">
+                    <img src="Pictures/images (1).jfif" alt="">
+                    <img src="Pictures/asas.jfif" alt="">
+                    <img src="Pictures/best-banquet-halls-in-mussoorie-to-plan-out-a-beautiful-destination-wedding.jpg"
+                        alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat soluta, in consectetur quaerat, dolorem
+            facilis nisi, modi eveniet hic officia eum quas illum eius velit distinctio perferendis aliquid unde
+            delectus.</p>
+        <p>MADE BY TARAN SHEKHAR</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-button');
+        const navLinks = document.querySelector('.navlinks');
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+        })
+
+    </script>
+</body>
+
+</html>
